@@ -1,0 +1,27 @@
+body {
+  background-color: #e7ebf0;
+  height: 100%;
+}
+#root {
+  height: 100vh;
+}
+.main {
+  background-color: #e7ebf0;
+  height: 100%;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 65%;
+  margin: 4rem auto;
+}
+form {
+  width: 400px;
+  background-color: #fff;
+}
+@media (max-width: 500px) {
+  form {
+    width: 300px;
+  }
+}
