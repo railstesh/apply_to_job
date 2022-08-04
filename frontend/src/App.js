@@ -1,10 +1,12 @@
 import './App.css';
+import Header from './components/Header';
+import { BrowserRouter as Router, Routes, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Here to create form...</h1>
-    </div>
+    <Router>
+      <Header />
+    </Router>
   );
 }
 
